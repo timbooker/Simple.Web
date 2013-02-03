@@ -59,9 +59,8 @@ namespace Simple.Web.Razor
             {
                 return;
             }
-#if DEBUG
+
             FindViews(viewsDirectory);
-#endif
         }
 
         private static void FindViews(string directory)
